@@ -1,2 +1,3 @@
 const router = require('express').Router();
-const { Location, Traveler, Trips } = require('../../models');
+const { Location, Traveller, Trips } = require('../../models');
+
