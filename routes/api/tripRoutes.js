@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const router = require('express').Router();
 const { Location, Traveller, Trips } = require('../../models');
 
 //post route creates trip data between associated travellers and locations
