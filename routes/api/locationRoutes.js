@@ -18,4 +18,7 @@ router.post('/', async (req, res) => {
 });
 
 module.exports = router;
-  
+
+const { Location, Traveller, Trips } = require('../../models');
+
+
