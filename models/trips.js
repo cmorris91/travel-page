@@ -14,15 +14,15 @@ Trips.init(
         trip_budget: {
             type: DataTypes.INTEGER,
         },
-        traveler_amount: {
+        traveller_amount: {
             type: DataTypes.INTEGER,
             isEmail: true,
         },
       
-        traveler_id: {
+        traveller_id: {
             type: DataTypes.INTEGER,
             references: {
-                model: 'traveler',
+                model: 'traveller',
                 key: 'id',
               },
         },

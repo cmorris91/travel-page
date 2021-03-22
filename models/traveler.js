@@ -9,13 +9,14 @@ Traveller.init(
         id: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
+            primaryKey: true,
 
         },
         name: {
             type: DataTypes.STRING,
         },
         email: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             isEmail: true,
         },
     },

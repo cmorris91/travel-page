@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Location, Traveler, Trips } = require('../../models');
+const { Location, Traveller, Trips } = require('../../models');
 
 router.get('/', async (req, res) => {
     const locationData = await Location.findAll().catch((err) => {
@@ -19,6 +19,5 @@ router.post('/', async (req, res) => {
 
 module.exports = router;
 
-const { Location, Traveller, Trips } = require('../../models');
 
 
