@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/cmorris91/travel-page.git"
   },
+<<<<<<< HEAD
+=======
+  "keywords": [],
+>>>>>>> d647bf8a37539ba5b73e80383de66f7486c80487
   "author": "",
   "license": "ISC",
   "bugs": {
