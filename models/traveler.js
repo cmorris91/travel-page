@@ -25,7 +25,7 @@ Traveller.init(
         //freeze will infer the table name to be equal to the model name without modifications
         freezeTableName: true,
         underscored: true,
-        modelName: 'traveler',
+        modelName: 'traveller',
     }
 )
 
