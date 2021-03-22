@@ -6,7 +6,7 @@ router.get('/', async (req, res) => {
     try {
 
       const travellerData = await Traveller.findAll({
-          
+
         include: [{ model: Trips }, { model: Location }],
     
       });
@@ -33,6 +33,7 @@ router.get('/', async (req, res) => {
       res.status(400).json(err);
 
     }
+    
   });
   
   
