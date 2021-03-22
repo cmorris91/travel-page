@@ -9,6 +9,7 @@ Trips.init(
         id: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
+            primaryKey: true
         },
         trip_budget: {
             type: DataTypes.INTEGER,
