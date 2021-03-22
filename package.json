@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/cmorris91/travel-page/issues"
   },
+
   "homepage": "https://github.com/cmorris91/travel-page#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
